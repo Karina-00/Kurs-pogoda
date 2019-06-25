@@ -1,0 +1,114 @@
+body
+{
+   background-image: url("tłopogoda.jpg");
+   background-attachment: fixed;
+   
+}
+
+#tlo
+{
+   background-color: rgba(247, 35, 88, 0.5);
+   margin-top: 20px;
+   border-radius: 25px;
+}
+
+#wyszukiwarka
+{
+   background-color: rgba(32, 132, 226, 0.596);
+   border-radius: 25px;
+   padding-left:20px;
+   padding-right: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   position: sticky;
+   top:0px;
+}
+
+input[type=text]
+{
+   border-radius: 10px;
+   border: none;
+   background-color: rgb(245, 205, 205);
+   width: 210px;
+   height: 32px;
+
+}
+input[type=text]:focus
+{
+   border-radius: 10px;
+   border: 3px groove rgb(150, 41, 150);
+   background-color: rgb(245, 205, 205);
+   width: 210px;
+   height: 32px;
+   outline:none;
+
+}
+
+#data
+{
+   float:left;
+   width: 20%;
+   font-size: 25px;
+
+}
+
+#god
+{
+   float:left;
+   width: 20%;
+   font-size: 25px;
+
+}
+
+#temp
+{
+   float:left;
+   width: 20%;
+   font-size: 25px;
+
+}
+
+#zachmurzenie
+{
+   float:left;
+   width: 25%;
+   font-size: 25px;
+}
+
+
+
+.data1
+{
+   border: 2px groove black;
+   margin-left: 20px;
+padding: 10px;
+background-color: lightpink;
+text-align: center;
+}
+
+.godz1
+{
+   border: 2px groove black;
+   margin-left: 20px;
+padding: 10px;
+background-color: lightpink;
+text-align: center;
+}
+
+.temp1
+{
+   border: 2px groove black;
+   margin-left: 20px;
+padding: 10px;
+background-color: lightpink;
+text-align: center;
+}
+
+.zach1
+{
+   border: 2px groove black;
+   margin-left: 20px;
+   padding: 10px;
+   background-color: lightpink;
+   text-align: center;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="pogoda.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+   <title>Pogoda</title>
+</head>
+<body>
+   <div class="container" id="tlo">
+         <div id="wyszukiwarka" class="container-fluid">
+               <label><h1>Sprawdź pogodę dla:</h1><br><br><input type="text" id="valuecity" placeholder=" Wpisz miasto  "> <button type="button" class="btn btn-info" id="dalej">Zobacz</button></label>
+               
+         </div>
+           
+            <div id="data"></div>
+            <div id="god"></div>
+            <div id="temp"></div>
+            <div id="zachmurzenie"></div>
+   </div>
+
+
+   
+   <script src="pogoda.js"></script>
+</body>
+</html>
